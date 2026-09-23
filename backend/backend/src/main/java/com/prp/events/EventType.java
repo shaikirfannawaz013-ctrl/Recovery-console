@@ -1,0 +1,5 @@
+package com.prp.events;
+
+public enum EventType {
+    PAYMENT_FAILED, RETRY_SCHEDULED, RETRY_SUCCEEDED, RETRY_FAILED, FRAUD_FLAGGED, DUPLICATE_BLOCKED
+}
